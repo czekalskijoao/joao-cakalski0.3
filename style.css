@@ -3,6 +3,9 @@
     padding: 0;
 }
 
+body{
+    font-family: 'Poppins', sans-serif;
+}
 
 
 
@@ -13,11 +16,11 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 24px 0;
+  padding:  24px 0;
 }
 
 .cabecalho-imagem{
-    width: 80%;
+    width: 65%;
     
 
 }
@@ -25,5 +28,26 @@
 .cabecalho-lista-item{
      display: inline-block;
      margin: 0 16px;
+     font-size: 24px;
 }
 
+.escola-imagem{
+    width:  50%;     
+}
+
+ .escola{
+    background-image: linear-gradient( rgb 44,44,44);
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+}
+  
+.escola-div-conteudo{
+    width: 35%;
+}
+
+.escola-div-conteudo{
+    padding: 24px 0;
+}
